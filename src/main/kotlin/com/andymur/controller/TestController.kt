@@ -9,5 +9,5 @@ import org.springframework.web.bind.annotation.RestController
 class TestController {
 
     @GetMapping("/test")
-    fun testEndoint() = "Test Me!"
+    fun testEndpoint() = "Test Me!"
 }
